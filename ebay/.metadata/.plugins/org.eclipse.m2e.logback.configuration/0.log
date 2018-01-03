@@ -1,0 +1,928 @@
+2017-12-26 16:24:57,464 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-12-26 17:14:11,693 [Worker-36] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ebay:ebay:0.0.1-SNAPSHOT @ D:\Selenium_Projects\ebay\ebay\pom.xml.
+2017-12-26 17:14:12,180 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-12-26 17:14:12,185 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-12-26 17:14:12,193 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-12-26 17:14:12,194 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\ebay\src\test\resources
+2017-12-26 17:14:12,200 [Worker-36] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ebay/src
+2017-12-26 17:14:12,200 [Worker-36] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /ebay/src overlaps with sources folder /ebay/src
+2017-12-26 17:14:12,203 [Worker-36] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /ebay/src/test/java because it overlaps with /ebay/src
+2017-12-26 17:14:12,279 [Worker-36] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-12-26 17:14:12,666 [Worker-36] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ebay:ebay:0.0.1-SNAPSHOT @ D:\Selenium_Projects\ebay\ebay\pom.xml.
+2017-12-26 17:14:12,939 [Worker-36] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ebay/src
+2017-12-26 17:14:12,939 [Worker-36] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /ebay/src overlaps with sources folder /ebay/src
+2017-12-26 17:14:12,941 [Worker-36] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /ebay/src/test/java because it overlaps with /ebay/src
+2017-12-26 17:14:12,986 [Worker-36] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2017-12-26 17:14:13,234 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-12-26 17:14:13,235 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-12-26 17:14:13,242 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-12-26 17:14:13,243 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\ebay\src\test\resources
+2017-12-26 17:14:18,621 [main] ERROR o.e.m.j.u.i.DownloadSourcesActionDelegate - Could not schedule source download
+org.eclipse.jdt.core.JavaModelException: bin/ebay [in ebay] is not on its project's build path
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:566) ~[na:na]
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:247) ~[na:na]
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:579) ~[na:na]
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:316) ~[na:na]
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:302) ~[na:na]
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getKind(PackageFragmentRoot.java:486) ~[na:na]
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getSourceAttachmentPath(PackageFragmentRoot.java:600) ~[na:na]
+	at org.eclipse.m2e.jdt.ui.internal.DownloadSourcesActionDelegate.setActiveEditor(DownloadSourcesActionDelegate.java:51) ~[na:na]
+	at org.eclipse.ui.internal.EditorPluginAction.editorChanged(EditorPluginAction.java:71) [org.eclipse.ui.workbench_3.108.1.v20160819-2118.jar:na]
+	at org.eclipse.ui.internal.EditorActionBuilder$EditorContribution.editorChanged(EditorActionBuilder.java:80) [org.eclipse.ui.workbench_3.108.1.v20160819-2118.jar:na]
+	at org.eclipse.ui.internal.EditorActionBuilder$ExternalContributor.setActiveEditor(EditorActionBuilder.java:129) [org.eclipse.ui.workbench_3.108.1.v20160819-2118.jar:na]
+	at org.eclipse.ui.internal.EditorActionBars.partChanged(EditorActionBars.java:344) [org.eclipse.ui.workbench_3.108.1.v20160819-2118.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.updateActivations(WorkbenchPage.java:309) [org.eclipse.ui.workbench_3.108.1.v20160819-2118.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.access$18(WorkbenchPage.java:291) [org.eclipse.ui.workbench_3.108.1.v20160819-2118.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage$E4PartListener.partActivated(WorkbenchPage.java:209) [org.eclipse.ui.workbench_3.108.1.v20160819-2118.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl$3.run(PartServiceImpl.java:250) [org.eclipse.e4.ui.workbench_1.4.0.v20160517-1624.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.8.0.v20160509-1230.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.firePartActivated(PartServiceImpl.java:247) [org.eclipse.e4.ui.workbench_1.4.0.v20160517-1624.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:757) [org.eclipse.e4.ui.workbench_1.4.0.v20160517-1624.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:682) [org.eclipse.e4.ui.workbench_1.4.0.v20160517-1624.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:677) [org.eclipse.e4.ui.workbench_1.4.0.v20160517-1624.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:3269) [org.eclipse.ui.workbench_3.108.1.v20160819-2118.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.access$25(WorkbenchPage.java:3176) [org.eclipse.ui.workbench_3.108.1.v20160819-2118.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage$10.run(WorkbenchPage.java:3158) [org.eclipse.ui.workbench_3.108.1.v20160819-2118.jar:na]
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3153) [org.eclipse.ui.workbench_3.108.1.v20160819-2118.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3117) [org.eclipse.ui.workbench_3.108.1.v20160819-2118.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3107) [org.eclipse.ui.workbench_3.108.1.v20160819-2118.jar:na]
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:373) [org.eclipse.jdt.ui_3.12.1.v20160822-0645.jar:na]
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:179) [org.eclipse.jdt.ui_3.12.1.v20160822-0645.jar:na]
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:256) [org.eclipse.jdt.ui_3.12.1.v20160822-0645.jar:na]
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:221) [org.eclipse.jdt.ui_3.12.1.v20160822-0645.jar:na]
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:271) [org.eclipse.jdt.ui_3.12.1.v20160822-0645.jar:na]
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:249) [org.eclipse.jdt.ui_3.12.1.v20160822-0645.jar:na]
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerActionGroup.handleOpen(PackageExplorerActionGroup.java:379) [org.eclipse.jdt.ui_3.12.1.v20160822-0645.jar:na]
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart$4.open(PackageExplorerPart.java:540) [org.eclipse.jdt.ui_3.12.1.v20160822-0645.jar:na]
+	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:46) [org.eclipse.ui.workbench_3.108.1.v20160819-2118.jar:na]
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:855) [org.eclipse.jface_3.12.0.v20160518-1929.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.8.0.v20160509-1230.jar:na]
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50) [org.eclipse.ui.workbench_3.108.1.v20160819-2118.jar:na]
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:173) [org.eclipse.jface_3.12.0.v20160518-1929.jar:na]
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:852) [org.eclipse.jface_3.12.0.v20160518-1929.jar:na]
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1169) [org.eclipse.jface_3.12.0.v20160518-1929.jar:na]
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:278) ~[org.eclipse.jface_3.12.0.v20160518-1929.jar:na]
+	at org.eclipse.jface.util.OpenStrategy.access$2(OpenStrategy.java:272) ~[org.eclipse.jface_3.12.0.v20160518-1929.jar:na]
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:313) ~[org.eclipse.jface_3.12.0.v20160518-1929.jar:na]
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84) ~[org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410) ~[org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079) ~[org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4228) ~[org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3816) ~[org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121) ~[na:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336) ~[na:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022) ~[na:na]
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150) ~[na:na]
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:687) ~[na:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336) ~[na:na]
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:604) ~[na:na]
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148) ~[na:na]
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138) ~[na:na]
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196) ~[org.eclipse.equinox.app_1.3.400.v20150715-1528.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134) ~[org.eclipse.osgi_3.11.1.v20160708-1632.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104) ~[org.eclipse.osgi_3.11.1.v20160708-1632.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388) ~[org.eclipse.osgi_3.11.1.v20160708-1632.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243) ~[org.eclipse.osgi_3.11.1.v20160708-1632.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_101]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_101]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_101]
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673) ~[org.eclipse.equinox.launcher_1.3.200.v20160318-1642.jar:na]
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610) ~[org.eclipse.equinox.launcher_1.3.200.v20160318-1642.jar:na]
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519) ~[org.eclipse.equinox.launcher_1.3.200.v20160318-1642.jar:na]
+2017-12-26 17:14:30,634 [main] ERROR o.e.m.j.u.i.DownloadSourcesActionDelegate - Could not schedule source download
+org.eclipse.jdt.core.JavaModelException: bin/ebay [in ebay] is not on its project's build path
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:566) ~[na:na]
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:247) ~[na:na]
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:579) ~[na:na]
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:316) ~[na:na]
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:302) ~[na:na]
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getKind(PackageFragmentRoot.java:486) ~[na:na]
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getSourceAttachmentPath(PackageFragmentRoot.java:600) ~[na:na]
+	at org.eclipse.m2e.jdt.ui.internal.DownloadSourcesActionDelegate.setActiveEditor(DownloadSourcesActionDelegate.java:51) ~[na:na]
+	at org.eclipse.ui.internal.EditorPluginAction.editorChanged(EditorPluginAction.java:71) [org.eclipse.ui.workbench_3.108.1.v20160819-2118.jar:na]
+	at org.eclipse.ui.internal.EditorActionBuilder$EditorContribution.editorChanged(EditorActionBuilder.java:80) [org.eclipse.ui.workbench_3.108.1.v20160819-2118.jar:na]
+	at org.eclipse.ui.internal.EditorActionBuilder$ExternalContributor.setActiveEditor(EditorActionBuilder.java:129) [org.eclipse.ui.workbench_3.108.1.v20160819-2118.jar:na]
+	at org.eclipse.ui.internal.EditorActionBars.partChanged(EditorActionBars.java:344) [org.eclipse.ui.workbench_3.108.1.v20160819-2118.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.updateActivations(WorkbenchPage.java:309) [org.eclipse.ui.workbench_3.108.1.v20160819-2118.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.access$18(WorkbenchPage.java:291) [org.eclipse.ui.workbench_3.108.1.v20160819-2118.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage$E4PartListener.partActivated(WorkbenchPage.java:209) [org.eclipse.ui.workbench_3.108.1.v20160819-2118.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl$3.run(PartServiceImpl.java:250) [org.eclipse.e4.ui.workbench_1.4.0.v20160517-1624.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.8.0.v20160509-1230.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.firePartActivated(PartServiceImpl.java:247) [org.eclipse.e4.ui.workbench_1.4.0.v20160517-1624.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:757) [org.eclipse.e4.ui.workbench_1.4.0.v20160517-1624.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:682) [org.eclipse.e4.ui.workbench_1.4.0.v20160517-1624.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.AbstractPartRenderer.activate(AbstractPartRenderer.java:95) [org.eclipse.e4.ui.workbench.swt_0.14.1.v20160829-0832.jar:na]
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer$4.handleEvent(StackRenderer.java:1077) [org.eclipse.e4.ui.workbench.renderers.swt_0.14.0.v20160525-0940.jar:na]
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1103) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1088) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.widgets.Shell.setActiveControl(Shell.java:1542) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.widgets.Shell.WM_MOUSEACTIVATE(Shell.java:2467) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4835) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:359) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1656) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2199) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5115) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2547) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:88) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4889) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5115) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2547) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:88) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4889) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5115) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2547) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:88) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4889) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5115) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2547) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:88) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4889) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5115) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2547) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:88) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4889) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5115) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2547) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:88) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4889) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5115) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2547) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:88) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4889) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5115) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2547) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:88) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4889) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5115) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3144) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3811) [org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121) [org.eclipse.e4.ui.workbench.swt_0.14.1.v20160829-0832.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336) [org.eclipse.core.databinding.observable_1.6.0.v20160511-1747.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022) [org.eclipse.e4.ui.workbench.swt_0.14.1.v20160829-0832.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150) [org.eclipse.e4.ui.workbench_1.4.0.v20160517-1624.jar:na]
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:687) [org.eclipse.ui.workbench_3.108.1.v20160819-2118.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336) [org.eclipse.core.databinding.observable_1.6.0.v20160511-1747.jar:na]
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:604) [org.eclipse.ui.workbench_3.108.1.v20160819-2118.jar:na]
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148) [org.eclipse.ui.workbench_3.108.1.v20160819-2118.jar:na]
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138) [org.eclipse.ui.ide.application_1.1.101.v20160829-0827.jar:na]
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196) [org.eclipse.equinox.app_1.3.400.v20150715-1528.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134) [org.eclipse.osgi_3.11.1.v20160708-1632.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104) [org.eclipse.osgi_3.11.1.v20160708-1632.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388) [org.eclipse.osgi_3.11.1.v20160708-1632.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243) [org.eclipse.osgi_3.11.1.v20160708-1632.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_101]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_101]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_101]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_101]
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673) [org.eclipse.equinox.launcher_1.3.200.v20160318-1642.jar:na]
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610) [org.eclipse.equinox.launcher_1.3.200.v20160318-1642.jar:na]
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519) [org.eclipse.equinox.launcher_1.3.200.v20160318-1642.jar:na]
+2017-12-26 17:17:05,026 [Worker-46] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' D:\Selenium_Projects\ebay\project\pom.xml
+2017-12-26 17:17:05,392 [Worker-46] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.project1:project:0.0.1-SNAPSHOT @ D:\Selenium_Projects\ebay\project\pom.xml.
+2017-12-26 17:17:05,648 [Worker-46] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /project/src/main/java
+2017-12-26 17:17:05,651 [Worker-46] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /project/src/test/java
+2017-12-26 17:17:05,685 [Worker-46] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2017-12-26 17:17:05,901 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:17:05,901 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:17:05,903 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:17:05,904 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:17:40,693 [Worker-48] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.project1:project:0.0.1-SNAPSHOT @ D:\Selenium_Projects\ebay\project\pom.xml.
+2017-12-26 17:17:40,710 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.commons:commons-exec:jar:1.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-12-26 17:17:40,713 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for commons-codec:commons-codec:jar:1.10 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-12-26 17:17:41,374 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:17:41,375 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:17:41,377 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:17:41,377 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:17:42,584 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.commons:commons-exec:jar:1.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-12-26 17:17:42,587 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for commons-codec:commons-codec:jar:1.10 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-12-26 17:17:42,868 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:17:42,868 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:17:42,870 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:17:42,870 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:17:46,413 [Worker-53] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-12-26 17:17:46,712 [Worker-53] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.project1:project:0.0.1-SNAPSHOT @ D:\Selenium_Projects\ebay\project\pom.xml.
+2017-12-26 17:17:46,728 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.commons:commons-exec:jar:1.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-12-26 17:17:46,730 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for commons-codec:commons-codec:jar:1.10 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-12-26 17:17:47,139 [Worker-53] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /project/src/main/java
+2017-12-26 17:17:47,139 [Worker-53] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /project/src/test/java
+2017-12-26 17:17:47,281 [Worker-53] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2017-12-26 17:17:47,484 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.commons:commons-exec:jar:1.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-12-26 17:17:47,488 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for commons-codec:commons-codec:jar:1.10 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-12-26 17:17:47,677 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:17:47,677 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:17:47,679 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:17:47,680 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:17:55,376 [Worker-48] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Selenium_Projects\ebay\project
+2017-12-26 17:17:55,376 [Worker-48] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-12-26 17:17:57,797 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:17:57,797 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:17:57,798 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:17:57,798 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:18:25,175 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:18:25,175 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:18:25,176 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:18:25,176 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:18:37,661 [Worker-47] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-12-26 17:18:37,919 [Worker-47] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.project1:project:0.0.1-SNAPSHOT @ D:\Selenium_Projects\ebay\project\pom.xml.
+2017-12-26 17:18:37,928 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.commons:commons-exec:jar:1.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-12-26 17:18:37,930 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for commons-codec:commons-codec:jar:1.10 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-12-26 17:18:38,258 [Worker-47] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /project/src/main/java
+2017-12-26 17:18:38,259 [Worker-47] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /project/src/test/java
+2017-12-26 17:18:38,373 [Worker-47] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2017-12-26 17:18:38,571 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.commons:commons-exec:jar:1.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-12-26 17:18:38,573 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for commons-codec:commons-codec:jar:1.10 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-12-26 17:18:38,778 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:18:38,778 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:18:38,779 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:18:38,779 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:18:43,276 [Worker-36] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Selenium_Projects\ebay\project
+2017-12-26 17:18:43,276 [Worker-36] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-12-26 17:18:44,725 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:18:44,725 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:18:44,726 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:18:44,726 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:18:50,034 [Worker-44] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Selenium_Projects\ebay\project
+2017-12-26 17:18:50,035 [Worker-44] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-12-26 17:18:52,450 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:18:52,450 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:18:52,451 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:18:52,451 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:19:06,504 [Worker-49] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Selenium_Projects\ebay\project
+2017-12-26 17:19:06,504 [Worker-49] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-12-26 17:19:07,988 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:19:07,988 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:19:07,988 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:19:07,988 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:19:17,812 [Worker-48] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-12-26 17:19:18,053 [Worker-48] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.project1:project:0.0.1-SNAPSHOT @ D:\Selenium_Projects\ebay\project\pom.xml.
+2017-12-26 17:19:18,065 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.commons:commons-exec:jar:1.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-12-26 17:19:18,067 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for commons-codec:commons-codec:jar:1.10 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-12-26 17:19:18,548 [Worker-48] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /project/src/main/java
+2017-12-26 17:19:18,549 [Worker-48] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /project/src/test/java
+2017-12-26 17:19:18,659 [Worker-48] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2017-12-26 17:19:18,858 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.commons:commons-exec:jar:1.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-12-26 17:19:18,860 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for commons-codec:commons-codec:jar:1.10 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-12-26 17:19:19,071 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:19:19,071 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:19:19,073 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:19:19,073 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:19:23,873 [Worker-51] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Selenium_Projects\ebay\project
+2017-12-26 17:19:23,874 [Worker-51] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-12-26 17:19:26,199 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:19:26,200 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:19:26,200 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:19:26,200 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:19:53,144 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:19:53,144 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:19:53,145 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:19:53,145 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:20:01,847 [Worker-49] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Selenium_Projects\ebay\project
+2017-12-26 17:20:01,847 [Worker-49] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-12-26 17:20:03,281 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:20:03,281 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:20:03,282 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:20:03,282 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:20:13,447 [Worker-49] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Selenium_Projects\ebay\project
+2017-12-26 17:20:13,447 [Worker-49] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-12-26 17:20:15,751 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:20:15,751 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:20:15,751 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:20:15,751 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:20:29,119 [Worker-44] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Selenium_Projects\ebay\project
+2017-12-26 17:20:29,119 [Worker-44] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-12-26 17:20:30,543 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:20:30,543 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:20:30,544 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:20:30,544 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:20:37,270 [Worker-54] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-12-26 17:20:37,532 [Worker-54] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.project1:project:0.0.1-SNAPSHOT @ D:\Selenium_Projects\ebay\project\pom.xml.
+2017-12-26 17:20:37,545 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.commons:commons-exec:jar:1.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-12-26 17:20:37,547 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for commons-codec:commons-codec:jar:1.10 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-12-26 17:20:37,979 [Worker-54] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /project/src/main/java
+2017-12-26 17:20:37,980 [Worker-54] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /project/src/test/java
+2017-12-26 17:20:38,090 [Worker-54] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2017-12-26 17:20:38,241 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.commons:commons-exec:jar:1.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-12-26 17:20:38,243 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for commons-codec:commons-codec:jar:1.10 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-12-26 17:20:38,422 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:20:38,422 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:20:38,423 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:20:38,424 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:20:45,670 [Worker-46] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Selenium_Projects\ebay\project
+2017-12-26 17:20:45,670 [Worker-46] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-12-26 17:20:48,002 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:20:48,002 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:20:48,003 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:20:48,003 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:20:58,416 [Worker-49] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Selenium_Projects\ebay\project
+2017-12-26 17:20:58,416 [Worker-49] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-12-26 17:21:00,762 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:21:00,762 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:21:00,762 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:21:00,762 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:21:55,462 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:21:55,462 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:21:55,463 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:21:55,463 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:22:03,362 [Worker-49] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-12-26 17:22:03,632 [Worker-49] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.project1:project:0.0.1-SNAPSHOT @ D:\Selenium_Projects\ebay\project\pom.xml.
+2017-12-26 17:22:03,644 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.commons:commons-exec:jar:1.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-12-26 17:22:03,646 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for commons-codec:commons-codec:jar:1.10 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-12-26 17:22:03,984 [Worker-49] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /project/src/main/java
+2017-12-26 17:22:03,984 [Worker-49] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /project/src/test/java
+2017-12-26 17:22:04,121 [Worker-49] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2017-12-26 17:22:04,268 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.commons:commons-exec:jar:1.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-12-26 17:22:04,270 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for commons-codec:commons-codec:jar:1.10 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-12-26 17:22:04,474 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:22:04,474 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:22:04,476 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:22:04,476 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:22:37,501 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:22:37,501 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:22:37,502 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:22:37,502 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:22:48,173 [Worker-54] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Selenium_Projects\ebay\project
+2017-12-26 17:22:48,173 [Worker-54] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-12-26 17:22:49,659 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:22:49,659 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:22:49,660 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:22:49,660 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:23:05,083 [Worker-53] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-12-26 17:23:05,331 [Worker-53] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.project1:project:0.0.1-SNAPSHOT @ D:\Selenium_Projects\ebay\project\pom.xml.
+2017-12-26 17:23:05,342 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.commons:commons-exec:jar:1.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-12-26 17:23:05,345 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for commons-codec:commons-codec:jar:1.10 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-12-26 17:23:05,791 [Worker-53] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /project/src/main/java
+2017-12-26 17:23:05,792 [Worker-53] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /project/src/test/java
+2017-12-26 17:23:05,903 [Worker-53] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2017-12-26 17:23:06,066 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.commons:commons-exec:jar:1.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-12-26 17:23:06,069 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for commons-codec:commons-codec:jar:1.10 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-12-26 17:23:06,277 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:23:06,277 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:23:06,279 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:23:06,280 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:23:49,635 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:23:49,636 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:23:49,636 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:23:49,636 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:23:53,983 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:23:53,983 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:23:53,983 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:23:53,983 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:23:59,232 [Worker-52] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Selenium_Projects\ebay\project
+2017-12-26 17:23:59,232 [Worker-52] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-12-26 17:24:01,667 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:24:01,667 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:24:01,668 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:24:01,668 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:24:16,492 [Worker-51] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Selenium_Projects\ebay\project
+2017-12-26 17:24:16,493 [Worker-51] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-12-26 17:24:17,928 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:24:17,929 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:24:17,929 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:24:17,929 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:24:24,061 [Worker-55] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Selenium_Projects\ebay\project
+2017-12-26 17:24:24,061 [Worker-55] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2017-12-26 17:24:26,358 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:24:26,358 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:24:26,359 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:24:26,359 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:24:32,059 [Worker-53] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Selenium_Projects\ebay\project
+2017-12-26 17:24:32,060 [Worker-53] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-12-26 17:24:34,359 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:24:34,359 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:24:34,360 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:24:34,360 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:24:48,433 [Worker-57] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-12-26 17:24:48,699 [Worker-57] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.project1:project:0.0.1-SNAPSHOT @ D:\Selenium_Projects\ebay\project\pom.xml.
+2017-12-26 17:24:48,711 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.commons:commons-exec:jar:1.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-12-26 17:24:48,713 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for commons-codec:commons-codec:jar:1.10 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-12-26 17:24:49,164 [Worker-57] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /project/src/main/java
+2017-12-26 17:24:49,165 [Worker-57] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /project/src/test/java
+2017-12-26 17:24:49,269 [Worker-57] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2017-12-26 17:24:49,425 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.commons:commons-exec:jar:1.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-12-26 17:24:49,427 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for commons-codec:commons-codec:jar:1.10 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-12-26 17:24:49,638 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:24:49,638 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:24:49,640 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:24:49,640 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:25:41,631 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:25:41,631 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:25:41,632 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:25:41,632 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:25:50,504 [Worker-54] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Selenium_Projects\ebay\project
+2017-12-26 17:25:50,504 [Worker-54] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-12-26 17:25:52,869 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:25:52,869 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:25:52,869 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:25:52,869 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:26:15,720 [Worker-45] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Selenium_Projects\ebay\project
+2017-12-26 17:26:15,720 [Worker-45] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-12-26 17:26:17,167 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:26:17,167 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:26:17,167 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:26:17,167 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:26:24,466 [Worker-54] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-12-26 17:26:24,702 [Worker-54] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.project1:project:0.0.1-SNAPSHOT @ D:\Selenium_Projects\ebay\project\pom.xml.
+2017-12-26 17:26:24,712 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.commons:commons-exec:jar:1.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-12-26 17:26:24,714 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for commons-codec:commons-codec:jar:1.10 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-12-26 17:26:25,140 [Worker-54] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /project/src/main/java
+2017-12-26 17:26:25,140 [Worker-54] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /project/src/test/java
+2017-12-26 17:26:25,253 [Worker-54] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2017-12-26 17:26:25,412 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.commons:commons-exec:jar:1.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-12-26 17:26:25,415 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for commons-codec:commons-codec:jar:1.10 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-12-26 17:26:25,591 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:26:25,591 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:26:25,592 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:26:25,592 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:27:40,565 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:27:40,565 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:27:40,566 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:27:40,566 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:28:06,671 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:28:06,672 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:28:06,672 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:28:06,672 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:28:13,330 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:28:13,330 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:28:13,331 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:28:13,331 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:33:08,396 [Worker-44] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.project1:project:0.0.1-SNAPSHOT @ D:\Selenium_Projects\ebay\project\pom.xml.
+2017-12-26 17:33:08,409 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.commons:commons-exec:jar:1.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-12-26 17:33:08,412 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for commons-codec:commons-codec:jar:1.10 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-12-26 17:33:08,701 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:33:08,702 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:33:08,703 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:33:08,703 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:33:33,173 [Worker-63] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.commons:commons-exec:jar:1.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-12-26 17:33:33,176 [Worker-63] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for commons-codec:commons-codec:jar:1.10 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-12-26 17:33:33,358 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:33:33,358 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:33:33,358 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:33:33,358 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:34:46,146 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:34:46,146 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:34:46,147 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:34:46,147 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:35:31,286 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:35:31,286 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:35:31,287 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:35:31,287 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:35:48,554 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:35:48,554 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:35:48,555 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:35:48,555 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:41:48,201 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:41:48,201 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:41:48,202 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:41:48,202 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:41:55,243 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:41:55,243 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:41:55,244 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:41:55,244 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:42:03,639 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:42:03,639 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:42:03,641 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:42:03,641 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:43:14,840 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:43:14,840 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:43:14,841 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:43:14,841 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:43:59,333 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:43:59,333 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:43:59,334 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:43:59,334 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:44:52,228 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:44:52,228 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:44:52,228 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:44:52,229 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:44:59,594 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:44:59,594 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:44:59,594 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:44:59,595 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:46:49,721 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:46:49,721 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:46:49,721 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:46:49,721 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:48:45,205 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:48:45,205 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:48:45,206 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:48:45,206 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:49:59,533 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:49:59,533 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:49:59,533 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:49:59,533 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:50:24,721 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:50:24,721 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:50:24,722 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:50:24,722 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:51:10,359 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:51:10,359 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:51:10,360 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:51:10,360 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:51:19,233 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:51:19,233 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:51:19,234 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:51:19,234 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:52:19,727 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:52:19,728 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:52:19,728 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:52:19,728 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:52:53,418 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:52:53,418 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:52:53,418 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:52:53,418 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:54:59,665 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:54:59,666 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:54:59,666 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:54:59,666 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:56:45,131 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:56:45,132 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:56:45,132 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:56:45,132 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 17:59:21,463 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:59:21,463 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 17:59:21,464 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 17:59:21,464 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 18:05:24,563 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:05:24,563 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 18:05:24,564 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:05:24,564 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 18:05:33,821 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:05:33,821 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 18:05:33,822 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:05:33,822 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 18:06:13,452 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:06:13,452 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 18:06:13,452 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:06:13,452 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 18:08:27,369 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:08:27,369 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 18:08:27,370 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:08:27,370 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 18:10:28,460 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:10:28,460 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 18:10:28,460 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:10:28,460 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 18:12:13,677 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:12:13,678 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 18:12:13,678 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:12:13,678 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 18:12:22,106 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:12:22,106 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 18:12:22,106 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:12:22,106 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 18:14:57,802 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:14:57,803 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 18:14:57,803 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:14:57,803 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 18:16:50,645 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:16:50,646 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 18:16:50,646 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:16:50,646 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 18:17:00,898 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:17:00,898 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 18:17:00,898 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:17:00,898 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 18:17:50,645 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:17:50,645 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 18:17:50,646 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:17:50,646 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 18:19:28,415 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:19:28,415 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 18:19:28,416 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:19:28,416 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 18:19:35,739 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:19:35,739 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 18:19:35,740 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:19:35,740 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 18:19:58,381 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:19:58,382 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 18:19:58,382 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:19:58,382 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 18:20:15,168 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:20:15,169 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 18:20:15,169 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:20:15,169 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 18:24:18,784 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:24:18,784 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 18:24:18,785 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:24:18,785 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 18:24:32,888 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:24:32,888 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 18:24:32,889 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:24:32,889 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 18:25:06,072 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:25:06,072 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 18:25:06,073 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:25:06,073 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 18:27:47,804 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:27:47,804 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 18:27:47,805 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:27:47,805 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 18:28:04,374 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:28:04,374 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 18:28:04,375 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:28:04,375 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 18:28:23,263 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:28:23,263 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 18:28:23,263 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:28:23,263 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 18:29:06,437 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:29:06,438 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 18:29:06,438 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:29:06,438 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 18:33:48,713 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:33:48,713 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 18:33:48,713 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:33:48,713 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 18:36:45,519 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:36:45,519 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 18:36:45,520 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:36:45,520 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 18:37:13,860 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:37:13,860 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 18:37:13,860 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:37:13,860 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 18:45:20,947 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:45:20,947 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 18:45:20,948 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:45:20,948 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 18:55:16,842 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:55:16,843 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 18:55:16,843 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:55:16,843 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 18:57:29,269 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:57:29,269 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 18:57:29,269 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:57:29,269 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 18:57:34,569 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:57:34,569 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 18:57:34,570 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:57:34,571 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 18:59:20,458 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:59:20,458 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 18:59:20,458 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 18:59:20,459 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 19:04:11,379 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 19:04:11,379 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 19:04:11,379 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 19:04:11,380 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 19:04:22,699 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 19:04:22,699 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 19:04:22,700 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 19:04:22,700 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 19:06:41,336 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 19:06:41,336 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 19:06:41,337 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 19:06:41,337 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 19:50:25,229 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 19:50:25,230 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 19:50:25,231 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 19:50:25,231 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-26 19:52:24,333 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 19:52:24,333 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-26 19:52:24,333 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-26 19:52:24,334 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-27 08:24:30,871 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-12-27 08:24:37,356 [Worker-5] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.project1:project:0.0.1-SNAPSHOT @ D:\Selenium_Projects\ebay\project\pom.xml.
+2017-12-27 08:24:37,510 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.commons:commons-exec:jar:1.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-12-27 08:24:37,525 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for commons-codec:commons-codec:jar:1.10 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-12-27 08:24:41,071 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-27 08:24:41,072 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-27 08:24:41,375 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.project1:project:0.0.1-SNAPSHOT @ D:\Selenium_Projects\ebay\project\pom.xml.
+2017-12-27 08:24:41,376 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-27 08:24:41,376 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-27 08:24:41,398 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.commons:commons-exec:jar:1.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-12-27 08:24:41,401 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for commons-codec:commons-codec:jar:1.10 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-12-27 08:24:42,491 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.commons:commons-exec:jar:1.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-12-27 08:24:42,494 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for commons-codec:commons-codec:jar:1.10 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-12-27 08:24:42,699 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-27 08:24:42,699 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-27 08:24:42,701 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-27 08:24:42,701 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2017-12-27 08:31:20,650 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-27 08:31:20,650 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2017-12-27 08:31:20,652 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-27 08:31:20,652 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2018-01-02 17:16:16,784 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-01-02 17:16:39,609 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.commons:commons-exec:jar:1.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-01-02 17:16:39,615 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for commons-codec:commons-codec:jar:1.10 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-01-02 17:58:39,389 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 17:58:39,390 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2018-01-02 17:58:39,392 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 17:58:39,392 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2018-01-02 18:47:23,861 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 18:47:23,862 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2018-01-02 18:47:23,863 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 18:47:23,863 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2018-01-02 18:48:14,233 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 18:48:14,233 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2018-01-02 18:48:14,234 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 18:48:14,234 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2018-01-02 18:52:50,353 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 18:52:50,353 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2018-01-02 18:52:50,354 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 18:52:50,354 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2018-01-02 18:54:36,729 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 18:54:36,730 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2018-01-02 18:54:36,731 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 18:54:36,731 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2018-01-02 18:59:51,624 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 18:59:51,624 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2018-01-02 18:59:51,626 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 18:59:51,626 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2018-01-02 19:08:20,499 [Worker-5] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-01-02 19:08:23,362 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.commons:commons-exec:jar:1.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-01-02 19:08:23,428 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for commons-codec:commons-codec:jar:1.10 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-01-02 19:08:35,214 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 19:08:35,214 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2018-01-02 19:08:35,216 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 19:08:35,216 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2018-01-02 19:11:43,132 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 19:11:43,132 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2018-01-02 19:11:43,134 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 19:11:43,134 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2018-01-02 19:24:16,880 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 19:24:16,881 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2018-01-02 19:24:16,882 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 19:24:16,882 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2018-01-02 19:25:25,337 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 19:25:25,338 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2018-01-02 19:25:25,339 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 19:25:25,339 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2018-01-02 19:30:02,528 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 19:30:02,528 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2018-01-02 19:30:02,529 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 19:30:02,529 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2018-01-02 19:36:30,535 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 19:36:30,535 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2018-01-02 19:36:30,536 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 19:36:30,536 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2018-01-02 19:40:29,384 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 19:40:29,384 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2018-01-02 19:40:29,385 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 19:40:29,385 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2018-01-02 19:40:49,469 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 19:40:49,469 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2018-01-02 19:40:49,471 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 19:40:49,471 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2018-01-02 19:41:10,052 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 19:41:10,052 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2018-01-02 19:41:10,053 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 19:41:10,054 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2018-01-02 19:44:03,879 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 19:44:03,879 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2018-01-02 19:44:03,880 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 19:44:03,880 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2018-01-02 19:48:36,791 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 19:48:36,791 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2018-01-02 19:48:36,792 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 19:48:36,792 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2018-01-02 19:51:34,097 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 19:51:34,097 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2018-01-02 19:51:34,098 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 19:51:34,098 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2018-01-02 19:53:46,394 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 19:53:46,395 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2018-01-02 19:53:46,395 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 19:53:46,395 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2018-01-02 19:57:01,673 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 19:57:01,673 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2018-01-02 19:57:01,674 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 19:57:01,674 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2018-01-02 19:57:51,349 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 19:57:51,350 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2018-01-02 19:57:51,350 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 19:57:51,350 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2018-01-02 20:02:43,958 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 20:02:43,958 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2018-01-02 20:02:43,960 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 20:02:43,960 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2018-01-02 20:04:50,008 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 20:04:50,008 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2018-01-02 20:04:50,009 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 20:04:50,009 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2018-01-02 20:08:02,288 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 20:08:02,289 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2018-01-02 20:08:02,290 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 20:08:02,290 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2018-01-02 20:10:26,951 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 20:10:26,952 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2018-01-02 20:10:26,953 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 20:10:26,953 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2018-01-02 20:38:04,497 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 20:38:04,498 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2018-01-02 20:38:04,498 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 20:38:04,499 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2018-01-02 20:40:29,060 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 20:40:29,060 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2018-01-02 20:40:29,060 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 20:40:29,061 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2018-01-02 20:41:30,897 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 20:41:30,897 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2018-01-02 20:41:30,898 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 20:41:30,898 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2018-01-02 20:44:28,344 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 20:44:28,345 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2018-01-02 20:44:28,345 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 20:44:28,345 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2018-01-02 20:47:09,058 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 20:47:09,058 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2018-01-02 20:47:09,059 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 20:47:09,059 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2018-01-02 20:47:44,931 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 20:47:44,931 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2018-01-02 20:47:44,932 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 20:47:44,932 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2018-01-02 20:49:57,080 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 20:49:57,080 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2018-01-02 20:49:57,082 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 20:49:57,082 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2018-01-02 21:25:05,181 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 21:25:05,182 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2018-01-02 21:25:05,182 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 21:25:05,182 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2018-01-02 21:26:09,179 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 21:26:09,179 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2018-01-02 21:26:09,180 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 21:26:09,180 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2018-01-02 21:31:16,630 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 21:31:16,631 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2018-01-02 21:31:16,631 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 21:31:16,631 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2018-01-02 21:31:51,031 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 21:31:51,031 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2018-01-02 21:31:51,032 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 21:31:51,032 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2018-01-02 21:32:34,685 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 21:32:34,685 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2018-01-02 21:32:34,686 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 21:32:34,686 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2018-01-02 21:42:45,030 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 21:42:45,031 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2018-01-02 21:42:45,031 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-02 21:42:45,031 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2018-01-03 09:11:34,354 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-01-03 09:13:17,214 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.commons:commons-exec:jar:1.3 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-01-03 09:13:17,219 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for commons-codec:commons-codec:jar:1.10 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-01-03 09:13:18,593 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-03 09:13:18,593 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2018-01-03 09:13:18,595 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-03 09:13:18,595 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2018-01-03 09:13:19,657 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-03 09:13:19,657 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2018-01-03 09:13:19,658 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-03 09:13:19,658 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2018-01-03 09:50:13,318 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-03 09:50:13,319 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2018-01-03 09:50:13,335 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-03 09:50:13,335 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2018-01-03 09:52:14,829 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-03 09:52:14,830 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2018-01-03 09:52:14,830 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-03 09:52:14,830 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2018-01-03 09:52:48,521 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-03 09:52:48,522 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2018-01-03 09:52:48,523 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-03 09:52:48,523 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2018-01-03 09:53:02,457 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-03 09:53:02,457 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2018-01-03 09:53:02,458 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-03 09:53:02,458 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2018-01-03 09:53:28,229 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-03 09:53:28,229 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2018-01-03 09:53:28,230 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-03 09:53:28,230 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2018-01-03 09:56:41,236 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-03 09:56:41,237 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2018-01-03 09:56:41,238 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-03 09:56:41,239 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2018-01-03 09:58:26,274 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-03 09:58:26,275 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2018-01-03 09:58:26,276 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-03 09:58:26,276 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2018-01-03 09:59:16,678 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-03 09:59:16,678 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2018-01-03 09:59:16,680 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-03 09:59:16,680 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2018-01-03 10:00:53,104 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-03 10:00:53,104 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2018-01-03 10:00:53,104 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-03 10:00:53,104 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources
+2018-01-03 10:52:40,418 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-03 10:52:40,418 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\main\resources
+2018-01-03 10:52:40,418 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-01-03 10:52:40,418 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium_Projects\ebay\project\src\test\resources

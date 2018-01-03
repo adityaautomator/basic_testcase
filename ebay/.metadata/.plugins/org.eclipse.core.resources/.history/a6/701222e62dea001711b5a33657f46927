@@ -1,0 +1,25 @@
+package ebay;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+public class EbaySearch {
+	
+  File path = new File ("Properties.properties ");
+  
+ FileInputStream fileInput =null ;
+ try{
+	 	 fileInput=new FileInputStream(path);
+ }
+ catch( FileNotFoundException e)
+ {
+	 e.printStackTrace();
+	 
+ }
+ 
+ 
+	 
+ }
+
+}
